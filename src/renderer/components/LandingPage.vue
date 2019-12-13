@@ -7,7 +7,7 @@
         <span class="title">
           Welcome to your new project!
         </span>
-          <el-button>ElementUI Button</el-button>
+          <el-button type="primary">ElementUI Button</el-button>
 
         <system-information></system-information>
       </div>
