@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		// "noImplicitAny": true,
+		"allowJs": true,
+		// "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+		"sourceMap": true,
+		"outDir": "out",
+		"baseUrl": "./app",
+		"types": ["node"]
+		// "paths": {
+		// 	"*": ["node_modules/*"]
+		// }
+	},
+	"include": ["app/**/*.ts", "app/**/*.js"]
+}

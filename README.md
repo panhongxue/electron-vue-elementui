@@ -1,8 +1,9 @@
 # electron-vue-elementui
 
-## Project setup
+## 开发
 ```
-yarn install
+npm install
+npm run dev
 ```
 
 ### Compiles and hot-reloads for development

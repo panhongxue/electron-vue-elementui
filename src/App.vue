@@ -1,31 +1,33 @@
 <template>
-	<div id="app">
-		<img alt="Vue logo" src="./assets/logo.png" />
-		<div>
-			<el-button type="primary">ElementUI Button</el-button>
-		</div>
-		<HelloWorld msg="Welcome to Your Vue.js App" />
+	<div class="window">
+		<TitleBar />
 	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TitleBar from '@/components/TitleBar.vue'
 
 export default {
 	name: 'App',
 	components: {
-		HelloWorld
-	}
+		TitleBar
+	},
+	data() {
+		return {}
+	},
+	mounted() {}
 }
 </script>
 
+<style lang="scss">
+@import '@/common/style/index.scss'; // 全局自定义的css样式
+</style>
 <style lang="scss" scoped>
-#app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
+.window {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100vh;
+
+	color: #ccc;
 }
 </style>
