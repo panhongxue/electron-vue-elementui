@@ -6,20 +6,12 @@ npm install
 npm run dev
 ```
 
-### Compiles and hot-reloads for development
+## 调试 Electron
+> 使用 VS Code 调试
+
+### 打安装包
 ```
-yarn serve
+npm run bd
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
