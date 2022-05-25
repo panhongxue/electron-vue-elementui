@@ -10,7 +10,7 @@
 			"name": "Debug",
 			"skipFiles": ["<node_internals>/**"],
 			"attachSimplePort": 5878,
-			"timeout": 20000,
+			"timeout": 40000,
 			"runtimeArgs": [
 				"--inspect-brk=5878",
 				"--no-cached-data",
